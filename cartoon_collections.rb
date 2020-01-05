@@ -1,5 +1,7 @@
-def roll_call_dwarves# code an argument here
+def roll_call_dwarves(dwarf)# code an argument here
   # Your code here
+  dwarf.map{ |pair| p pair}
+end
 end
 
 def summon_captain_planet# code an argument here
